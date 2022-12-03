@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+#contact-text{
+    text-align: center;
+    margin: 20px;
+}
+
+#contact-text{
+    font-size: 50px;
+    font-family: 'Kalam', cursive;
+}
+
+
+.form-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 2%;
+}
+
+.input{
+    width: 650px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 17px;
+    border: 2px solid #7e7e7e;
+    border-radius: 10px;
+}
+
+
+.btn{
+    padding: 5px 20px;
+    margin-top: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    color: black;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: white;
+    background-color: black;
+}

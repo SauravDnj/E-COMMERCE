@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.form{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.text{
+    color: white;
+    margin-top: 8%;
+    margin-left: 5%;
+}
+    
+h1{
+    font-size: 50px;
+    color: orange;
+}
+
+p{
+    font-size: 22px;
+}
+
+.btn-login{
+    border: none;
+    border-radius: 30px;
+    padding: 17px;
+    width: 8%;
+    background: white;
+    font-weight: bold;
+    color: black;
+    margin-left: 13%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    cursor: pointer;
+    position: relative;
+}
+
+.btn-login:hover{
+    background: -webkit-linear-gradient(right, #3931af, #00c6ff);
+}
+
+#form-box{
+    background-color: white;
+    height: 80%;
+    width: 55%;
+    position:absolute;
+    margin-left: 45%;
+    margin-top: 5%;
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+}
+
+.form-title{
+    color: black;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.form-left-fild{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-top: 5%;
+}
+
+.input-left{
+    margin: 15px 80px;
+    width: 50%;
+    padding: 10px;
+    outline: none;
+    border: 0px;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+}
+
+.input-radio{
+    font-size: 18px;
+    margin-left: 11%;
+    margin-top: 10px;
+}
+
+.form-right-fild{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-top: 5%;
+} 
+
+.input-right{
+    margin: 15px 95px;
+    width: 50%;
+    padding: 10px;
+    outline: none;
+    border: 0px;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+}
+
+.select{
+    margin: 15px 95px;
+    margin-left: 22%;
+    width: 55%;
+    padding: 10px;
+    outline: none;
+    border: 0px;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+}
+
+.btn-registration{
+    border: none;
+    border-radius: 30px;
+    padding: 17px;
+    width: 35%;
+    color: white;
+    background: -webkit-linear-gradient(#3931af, #00c6ff);
+    font-weight: bold;
+    margin-left: 40%;
+    margin-top: 15%;
+    margin-bottom: 3%;
+    cursor: pointer;
+    position: relative;
+}
+
+.btn-registration:hover{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+}
